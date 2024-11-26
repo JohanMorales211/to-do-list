@@ -88,7 +88,7 @@ This project is a task management application where users can create, edit, dele
    ```
 8. Run database migrations:
    ```bash
-   docker-compose exec fastapi alembic upgrade head
+   docker-compose exec -it  fastapi alembic upgrade head
    ```
 
 *IMPORTANT:* If the migration command fails for any reason, try running it with `sudo`:
